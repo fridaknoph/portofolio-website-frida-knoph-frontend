@@ -1,0 +1,23 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 50px;
+  align-items: baseline;
+}
+
+.menu_container {
+  margin-top: 45px;
+  justify-content: flex-end;
+}
+
+.home {
+  margin-top: 20px;
+  margin-left: 0px;
+  text-decoration: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .header {
+    gap: 0%;
+  }
+}
