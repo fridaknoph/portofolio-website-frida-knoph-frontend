@@ -11,7 +11,6 @@ import Link from "next/link";
 import { server } from "../config/index";
 
 export default function About({ abouts }) {
-  console.log(abouts);
   return (
     <div>
       <Head>

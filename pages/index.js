@@ -7,7 +7,6 @@ import Socials from "../componments/Socials";
 import { server } from "../config/index";
 
 export default function Home({ infos }) {
-  console.log(infos);
   return (
     <div>
       <Head>
